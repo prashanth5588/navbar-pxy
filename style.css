@@ -1,0 +1,27 @@
+.header{
+    list-style: none;
+    position: fixed;
+    right: 20;
+    top: 20;
+    z-index: 99;
+}
+
+.listitem{
+    float: left;
+    padding: 8px;
+    
+}
+
+.listitem:hover{
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color: white;
+}
+
+li a {
+    color: black;
+    font-weight: bold;
+}
